@@ -1,7 +1,7 @@
 # Detecting-Items-in-Refrigerator-Real-Time-
 
 ## About The Project
-In this project we will how to perform real time object detection under the environments of Collab and to be specific we are going to train yoloV3 with custom objects in Collab and perform the object detection with the use of open CV.
+In this project we will see how to perform real time object detection under the environments of Collab and to be specific we are going to train yoloV3 with custom objects in Collab and perform the object detection with the use of open CV.
 
 ## Objective
 Performing object detections on the custom images that we used. 
