@@ -51,9 +51,9 @@ To speed up training, it is recommended to use a **GPU with CUDA** support. For 
 To test the object on web-cam run the + [`Project`](/Project/) script in the root folder with:
 
 ```bash
-python object_detection.ipynb
+python Object_Detection.py
 ```
 
-The outputs are saved in [`RealTime-Food-Detection-in-Refrigerator/Output/Source_Images`](/Output) . This includes:
+The outputs are saved in [`Detecting-Items-in-Refrigerator-Real-Time/Result/Source_Images`](/Result) . This includes:
  - Food Item pictures with bounding boxes around it with confidence scores.
   
