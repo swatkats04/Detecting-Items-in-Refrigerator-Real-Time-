@@ -8,18 +8,12 @@ Performing object detections on the custom images that we used.
 (Which means the model is applied to multiple regions within an image and then the model compute scores to an image at multiple locations and scales, high scores regions of an image are considered as an object is detected)
 
 ## Data description
-Downloaded using “Download All Images” plugin (https://chrome.google.com/webstore/detail/download-all-images/ifipmflagepipjokmbdecpmjbibjnakm?hl=en).
 
-Labelled the images using “labelimg” (https://tzutalin.github.io/labelImg/).
-
-9 classes(apple,banana,cake,orange,milk)
+The dataset consists of 5 classes(apple,banana,cake,orange,milk).
 
 ## Project Presentation
 https://docs.google.com/presentation/d/1R75a0XO8QiATI7CTDPDel-nqbtIoqYfT69kaFeNLAt8/edit#slide=id.gc6f972163_0_0
 
-
-# Detecting-Items-in-Refrigerator-Real-Time/
-This repo let's you train a custom food object detector using the  YOLOv3 computer vision algorithm.
 
 ## Pipeline Overview
 
@@ -38,11 +32,11 @@ To build and test your YOLO object detection algorithm follow the below steps:
 	
 ## Repo structure
 + [`Image_Annotation`](/Image_Annotation/): Scripts and instructions on annotating images
-+ [`Output`](/Output/): Video Recording of the Results
++ [`Result`](/Result/): Video Recording of the Results
  
 ## Getting Started
 
-### Google Colab Tutorial <a href="https://colab.research.google.com/drive/1pNJmOkzCQDnN0xBb-6Suze3q1AAdH8LT#scrollTo=9e9ZW3sqMEPO" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+### Google Colab Tutorial <a href="https://colab.research.google.com/drive/10pyFNMAntR1CLol_rBtHda92MDu34yEQ?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 With Google Colab you can skip most of the set up steps and start training your own model right away. 
 
 ### Requisites
