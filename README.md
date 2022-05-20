@@ -57,3 +57,4 @@ python Object_Detection.py
 The outputs are saved in [`Detecting-Items-in-Refrigerator-Real-Time/Result/Source_Images`](/Result) . This includes:
  - Food Item pictures with bounding boxes around it with confidence scores.
   
+
